@@ -38,3 +38,10 @@ Made a window with the color 238, 163, 54, 37.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This would make a window filling the screen with this color: https://www.color-hex.com/color/eea336 (Hex #EEA336)
+
+## How to Build "sdl2.cpp"
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* On Debian based systems (Ubuntu, Kubuntu, Lubuntu, Debian) install the SDL2 header files, the SDL2 runtime, and GCC  `sudo apt-get install libsdl2-2.0 libsdl2-dev build-essential`
+
+NOTE: Now I'm not some genius who knows how to install everything on every Linux flavor ever released, but all you need to install are the SDL2 development libraries, the SDL2 runtime, and GCC.
