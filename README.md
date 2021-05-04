@@ -11,7 +11,7 @@ Linux Version:
 * Vim 8.2.0000
 
 Windows Version:
-* MSVC 2010 x86 (32-bit for compatibility)
+* MSVC 2010 x86 (32-bit for compatibility, 64-bit isn't planned)
 * Visual Studio 2010 Ultimate
 
 ## Folder Structure
@@ -40,10 +40,10 @@ Preparing to make a window with the color 238, 163, 54, 37.
 
 Made a window with the color 238, 163, 54, 37.
 
-This would make a window filling the screen with this color: https://www.color-hex.com/color/eea336 (Hex #EEA336)
+This would make a window filling the screen with this color: https://www.color-hex.com/color/eea336 (Hex #EEA336) for 5 seconds
 
 ## How to Build "sdl2.cpp"
 
 * On Debian based systems (Ubuntu, Kubuntu, Lubuntu, Debian) install the SDL2 header files, the SDL2 runtime, and GCC  `sudo apt-get install libsdl2-2.0 libsdl2-dev build-essential`
 
-NOTE: Now I'm not some genius who knows how to install everything on every Linux flavor ever released, but all you need to install are the SDL2 development libraries, the SDL2 runtime, and GCC.  Also, maybe in the future I may go further in depth about compiling on a Windows machine with Visual Studio, but for now, that's a bit long, so I'll hope you know how to set up Include, and Library paths.  
+NOTE: Now I'm not some genius who knows how to install everything on every Linux flavor ever released, but all you need to install are the SDL2 development libraries, the SDL2 runtime, and GCC.  Also, maybe in the future I may go further in depth about compiling on a Windows machine with Visual Studio, but for now, that's a bit long, so I'll hope you know how to set up Include, and Library paths.  ALSO, if anyone *wants* to compile this for MacOS, I'd love that, but I do not currently have access to a Macintosh (except for a G3, so maybe...). (If you do make MacOS support, please make a pull request, and I will give you credit for the compilation.  
